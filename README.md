@@ -7,31 +7,17 @@ This project implements a Generative Adversarial Network (GAN) to generate handw
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Training Process](#training-process)
 - [Results](#results)
+- [Installation](#installation)
 - [Contributions](#contributions)
-- [License](#license)
 
 ## Introduction
 
 The MNIST dataset is a widely-used benchmark for image processing systems. It contains 70,000 images of handwritten digits (0-9), each 28x28 pixels in size. By training a GAN on this dataset, we can generate new images that resemble the original handwritten digits. This project showcases the capabilities of GANs in generating high-quality images and provides insights into the training process.
 
-## Installation
-
-To set up the project environment, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-
-
-2. Install the required packages: Make sure you have Python and pip installed. Then run
-    ```bash
-    pip install torch torchvision matplotlib
 
 ## Usage
 
@@ -40,6 +26,11 @@ To set up the project environment, follow these steps:
 
 
 ## Model Architecture
+
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/df4623ef-bc9f-4f9a-866d-e058a9360817" alt="GAN Structure" height="400">
+    <p><em>Figure 1: Architecture of the GAN used for generating images.</em></p>
+</div>
 
 ### Generator
 
@@ -74,10 +65,29 @@ The GAN is trained using the following procedure:
 
 After training, the GAN produces images that closely resemble handwritten digits. Below are examples of generated images showcasing the accuracy and quality of the output:
 
-![Generated Image](output/sample_image.png)
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/f64a1dc8-75d9-4efb-972c-29340a9bc0b4" alt="Output GAN Generated Images" height="400">
+    <p><em>Figure 2: Output of GAN-generated images resembling handwritten digits.</em></p>
+</div>
 
 These images illustrate the GAN's capability to generate realistic digit representations. You can find more generated images in the `output/` directory after training is complete.
 
+## Installation
+
+To set up the project environment, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sajitheranda/Generate_handwritten_digits.git
+   cd Generate_handwritten_digits
+
+
+2. Install the required packages: Make sure you have Python and pip installed. Then run
+    ```bash
+    pip install torch torchvision matplotlib
+
+3. run in collab or notebook
+  
 ## Contributions
 
 This project is a collaborative effort aimed at understanding GANs and their applications in image generation. Contributions and improvements are welcome!
