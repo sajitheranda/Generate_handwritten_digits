@@ -27,7 +27,7 @@ The MNIST dataset is a widely-used benchmark for image processing systems. It co
 
 ## Model Architecture
 
-<div style="text-align: center;">
+<div align="center">
     <img src="https://github.com/user-attachments/assets/df4623ef-bc9f-4f9a-866d-e058a9360817" alt="GAN Structure" height="400">
     <p><em>Figure 1: Architecture of the GAN used for generating images.</em></p>
 </div>
@@ -65,7 +65,7 @@ The GAN is trained using the following procedure:
 
 After training, the GAN produces images that closely resemble handwritten digits. Below are examples of generated images showcasing the accuracy and quality of the output:
 
-<div style="text-align: center;">
+<div align="center">
     <img src="https://github.com/user-attachments/assets/f64a1dc8-75d9-4efb-972c-29340a9bc0b4" alt="Output GAN Generated Images" height="400">
     <p><em>Figure 2: Output of GAN-generated images resembling handwritten digits.</em></p>
 </div>
