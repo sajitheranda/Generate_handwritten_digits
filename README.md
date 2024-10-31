@@ -72,11 +72,11 @@ The GAN is trained using the following procedure:
 
 ## Results
 
-After training, the GAN produces images that resemble handwritten digits. Below is an example of a generated image:
+After training, the GAN produces images that closely resemble handwritten digits. Below are examples of generated images showcasing the accuracy and quality of the output:
 
 ![Generated Image](output/sample_image.png)
 
-You can find more generated images in the `output/` directory after training is complete.
+These images illustrate the GAN's capability to generate realistic digit representations. You can find more generated images in the `output/` directory after training is complete.
 
 ## Contributions
 
